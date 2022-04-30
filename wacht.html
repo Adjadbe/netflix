@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to Netflix</title>
+  <link rel="stylesheet" href="kim.css">
+</head>
+<body>
+  
+
+  <div class='watchContainer'>
+   
+    <div class='videoControls watchNav'>
+        <button onclick='goBack()' ><i class="fas fa-arrow-left"></i></button>
+        <h1><img src="./images/logo.png" title="logo" alt="Site logo"></h1>
+        <a href="" style="color: white;" > Home</a> &nbsp;&nbsp;
+      <a href="" style="color: white;"> Tv show</a>&nbsp;&nbsp;
+    <a href=""style="color: white;"> Movies</a>
+    </div>
+      
+    
+    <div class="videoControls upNext" style="display:none;">
+  
+                 <button onclick="restartVideo();" ><i class="fas fa-redo"></i></button>
+  
+                 <div class="upNextContainer">
+
+                     
+                     <button class='playNext' onclick="watchVideogetId(); " > 
+                     <i class="fas fa-play"></i> Play
+                     </button>
+                 </div>
+    </div>
+    <video  width="1200px" height="400" controls autoplay  >
+                <source src=".\images\Man of God.mp4" type="video/mp4" >     
+                
+    </video>
+    
+  
+   
+  </div> <br /><br />
+  <h3>My list</h3>
+  <table style="padding-left: 35px;">
+    <tr>
+      <td> <img src=".\images\image1.jpg" width="400" height="300"><br /> <b> 1.La Femme folle</b> <br /> Quelque temps après le drame qu'elle a vécu, Jennifer reprend le cours de sa vie et va à des séances pour les victimes de viol où elle fait la rencontre de Marla avec qui elle tisse des liens. Elles se rendent compte que les victimes...</td>
+      <td> <a href="LES COUPS DE LA VIE [SAISON 2] (1080p).mp4"><img src=".\images\image2.jpg" width="400" height="300"></a> <br />  <b> 2.Les Coups de la vie <i> saison 2</i></b> <br /> Véritable récital d’histoires authentiques et singulières, LES COUPS DE LA VIE met en scène des personnages marqués par des évènements qui ont changé le cours de leur existence. Coups de chance, coups de cœur, coups de peur, déceptions et trahisons </td>
+      <td> <img src=".\images\image3.jpg"width="400" height="300"> <br /> <b> 3. Wulu </b> <br /> Ladji a 20 ans. Il travaille dur comme apprenti-chauffeur à Bamako. Lorsqu’on lui refuse une promotion qu’il estime avoir largement méritée, il décide de contacter Driss, un dealer de drogue, qui lui doit une faveur. Avec deux compères, Ladji plonge dans l’univers du trafic de cocaïne... </td>
+      <td> <img src=".\images\image 4.jpg"width="400" height="300"> <br /> <b> 4.African Gangster</b><br/> Ousman Badara vient d'arriver en France, il est hébergé par son cousin Yaya Doumbia, figure montante dans le milieu du crime. Ousman n'a qu'une idée en tête, subvenir aux besoins de sa famille restée en Afrique. Après avoir tenté le travail au noir dans la restauration, il se retrouve précipité par son cousin dans le grand banditisme parisien. </td>
+    </tr>
+    <tr>
+      <td> <img src=".\images\image5.png"width="400" height="300"> <br > <b> 5.Slay</b> <br /> À la recherche du succès et de la validation, un groupe d'individus férus de technologie jongle avec les rencontres intimes, les premières impressions et les opportunités romantiques.</td>
+      <td><img src=".\images\image6.jpg"width="400" height="300"> <br > <b> 6. la Pirogue</b><br /> Dans un village de pêcheurs, Baye Laye (Souleymane Sèye Ndiaye) est capitaine d’une pirogue. Il est sollicité pour faire partie de cette grande aventure car il connaît bien la mer et ses risques.Un soir, une tempête éclate et fait plusieurs morts. </td>
+      <td> <img src=".\images\image7.jpg"width="400" height="300"><br > <b> 7. Au Nom de l'amour</b> <br /> Pour l’amour des frères, Clara affronte Francisca, sa belle-mère, et sacrifie la passion d’une vie. Francisca a toujours voulu la vie et la fortune que sa demi-sœur, Laura, avait. Elle est responsable de la mort de sa demi-soeur, a épousé son mari et a adopté les plus jeunes filles. </td>
+      <td> <img src=".\images\image8.gif"width="400" height="300"><br > <b> 8. Pris au jeu</b> <br /> Tout commence lorsqu’une femme découvrira que son mari lui est infidèle. Elle mettra alors au point sa vengeance et décide de surprendre son époux en flagrant délit d’adultère !</td>
+    </tr>
+  </table>
+<table> 
+  <tr>
+    <td>
+      <video controls style="padding: 9px;" height="500px" width="700px">
+        <source src=".\images\Silverton Siege.mp4" type="video/mp4">
+        </video>
+    </td>
+    <td>
+      <p>
+        #2 FILM AFRO AMERICAIN</p> 
+        Après  l'éechec d'une mission de sabotage , trois membres<br /> d'un mouvement anti-apartheid se retrouvent en mauvaise posture<br /> dans une banque. Un film inspiré de faits réels.<br /><br/> 
+        <a href=".\images\Silverton Siege.mp4"><button> Play</button></a>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <video controls height="500px" width="700px" style="margin-left: 200px;">
+        <source src=".\images\Beasts of No Nation - Bande-annonce principale - Un film original Netflix - Français [HD] (1080p).mp4" type="video/mp4">
+      </video>
+    </td>
+    <td>
+      <p> # 45 FILM AFRICAIN</p>
+      Alors que la guerre civile fait rage, un jeune Africain est arraché <br />à sa famille et enrôlé comme enfant soldat par une horde de mercenaires.<br /><br />
+      <a href=".\images\Beasts of No Nation - Bande-annonce principale - Un film original Netflix - Français [HD] (1080p).mp4"> <button> Play</button></a>
+    </td>
+  </tr>
+</table>
+  
+    
+    
+  
+    
+  </table>
+  
+</body>
+</html>
+
